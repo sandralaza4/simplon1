@@ -8,7 +8,7 @@ import { Provider } from "react-redux";
 import store from "./store";
 import Footer from "./components/Footer/footer";
 import Particulier from './components/newPart/Particulier'
-import EditAtelier from './components/editAtelier/editAtelier'
+import EditAtelier from './components/editLivres/editLivres'
 import ListTout from "./components/liste/liste"
 import Menu from "./components/design/menu/menu"
 import Landing from "./components/layout/Landing";
@@ -16,7 +16,7 @@ import Register from "./components/auth/Register";
 import Login from "./components/auth/Login";
 import PrivateRoute from "./components/private-route/PrivateRoute";
 import Dashboard from "./components/dashboard/Dashboard";
-import NewAtelier from "./components/newAtelier/NewAtelier";
+import NewLivres from "./components/newLivres/NewLivres";
 
 import "./App.css";
 
@@ -65,7 +65,7 @@ class App extends Component {
             <Route exact path="/Particulier" component={Particulier} />
             <Route exact path="/register" component={Register} />
             <Route exact path="/login" component={Login} />
-            <Route exact path="/newAtelier" component={NewAtelier} />
+            <Route exact path="/newAtelier" component={NewLivres} />
             <Route exact path="/tousLesAteliers" component={ListTout} />
             <Switch>
               <PrivateRoute exact path="/modifierAtl/:id" component={EditAtelier} />
