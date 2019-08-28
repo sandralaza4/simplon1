@@ -3,7 +3,7 @@ import { MDBFooter, MDBBtn, MDBIcon } from 'mdbreact';
 
 const Footer = () => {
     return (
-        <MDBFooter color="Yellow" id="footer">
+        <MDBFooter color="Blue" id="footer">
             <div className="row">
                 <div className="col-md-6">
                 <center><MDBBtn outline color="white" tag="a" href="">sandra.laza4@gmail.com</MDBBtn></center>

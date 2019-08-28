@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { logoutUser } from "../../actions/authActions";
 import PropAtelier from "../propAtelier/propAtelier"
-import AjoutAtelier from './../newAtelier/NewAtelier'
+import AjoutAtelier from '../newLivres/NewLivres'
 
 class Dashboard extends Component {
 
@@ -27,7 +27,7 @@ class Dashboard extends Component {
 
                   <p className="flow-text grey-text text-darken-1">
                     {" "}
-                    <span style={{ fontFamily: "" }}> Bonjour </span> Chef 👏 {user.nom.split(" ")[0]}
+                    <span style={{ fontFamily: "" }}> Bonjour </span>👏 {user.nom.split(" ")[0]}
 
                   </p>
                 </h4>
@@ -38,7 +38,7 @@ class Dashboard extends Component {
                   }
                   
                   }
-                  >Ajout atelier</button>
+                  >Ajout livres</button>
                   <button 
                   onClick={()=>{
                     document.getElementById('ajoutatelier').style.display = "none";
@@ -46,8 +46,8 @@ class Dashboard extends Component {
                   }
                   
                   }
-                  className="btn btn-secondary" id="bottou">Listes des ateliers</button>
-                  <a href="/tousLesAteliers" >Listes des ateliers</a>
+                  className="btn btn-secondary" id="bottou">Listes des livres</button>
+                  <a href="/tousLesAteliers" className="btn btn-secondary">Listes des livres</a>
                 <button
                   style={{
                     width: "150px",
