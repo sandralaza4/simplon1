@@ -62,7 +62,7 @@ export default class Menu extends Component {
 
 </span>
                                 <br /><br />C’est la raison pour laquelle nous souhaitons booster cette activité en grâce à cet
-                  <strong>SITE ART</strong>.
+                   <strong>SITE ART</strong>.
               </p>
                             <a className="btn peach-gradient" href="#!" id="boutton-accueil" to="/tousLesAtelier"><i class="fas fa-clone left"></i>Voir tous les livres</a>
                         </div>
