@@ -56,13 +56,15 @@ export default class Menu extends Component {
                     <div className="text-white text-center rgba-stylish-strong py-5 px-4">
                         <div className="py-5">
                             <h2 id="h2accueil">SITE ART</h2>
-                            <p className="mb-4 pb-2 px-md-5 mx-md-5">Nous sommes un centre de formation de cuisine qui propose des ateliers à nos élèves à 
-partir de 12 ans, mais aussi à des particuliers. <span id="spanheader">Les cours proposés aux particuliers permettent de financer l’achat de matériels et de
-matières premières.</span>
-                                <br /><br />C’est la raison pour laquelle nous souhaitons booster cette activité en grâce à une
-                  application web.
+                            <p className="mb-4 pb-2 px-md-5 mx-md-5">Ecrire est toujours un art plein de rencontres. La lettre la plus simple suppose un choix entre des milliers de mots, dont la plupart sont étrangers à ce que vous voulez dire.
+
+<span id="spanheader">Tout l'art du roman vise sans doute à nous tirer d'impatience et à nous composer un plaisir d'attendre qui ne s'use point. Par cette précaution, un vrai roman est toujours trop court.
+
+</span>
+                                <br /><br />C’est la raison pour laquelle nous souhaitons booster cette activité en grâce à cet
+                  <strong>SITE ART</strong>.
               </p>
-                            <a className="btn peach-gradient" href="#!" id="boutton-accueil" to="/tousLesAtelier"><i class="fas fa-clone left"></i>Voir tous les livre  s</a>
+                            <a className="btn peach-gradient" href="#!" id="boutton-accueil" to="/tousLesAtelier"><i class="fas fa-clone left"></i>Voir tous les livres</a>
                         </div>
                     </div>
                 </div>
