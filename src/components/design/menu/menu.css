@@ -27,7 +27,7 @@
 #footer {
     background-color: #1B2030;
     height: 80px;
-    position: absolute;
+    position: flex;
     line-height: 50%;
     width: 100%;
     font-family:Roboto 'Helvetica Neue', sans-serif !important;
