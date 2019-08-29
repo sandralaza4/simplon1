@@ -11,7 +11,7 @@ export default class ListTout extends Component {
 
     }
     componentDidMount() {
-        axios.get('https://blacken.herokuapp.com/api/users/newArticle')
+        axios.get('https://blacken.herokuapp.com/api/user/newArticle')
             .then(response => {
                 console.log('i am a response', response)
                 this.setState({ produit: response.data });
@@ -36,7 +36,7 @@ export default class ListTout extends Component {
                         return  <div class="item col-xs-4 col-lg-4" id="carte">
 
                         <div className="card card-cascade narrower card-ecommerce">
-                                <img   width="200px" id="imageproduit" height="200px"    src={'https://blacken.herokuapp.com/api/users/newArticleImage/' + obj.image} alt={obj.image} />
+                                <img   width="200px" id="imageproduit" height="200px"    src={'https://blacken.herokuapp.com/api/user/newArticleImage/' + obj.image} alt={obj.image} />
                                 
                             <div className="card-body card-body-cascade">
 
@@ -72,7 +72,7 @@ export default class ListTout extends Component {
                                                                 <input name="email" placeholder="Email" onChange={this.handleChange} value={this.state.value} /><br></br>
 
                                                                 <button className="btn btn-succes" onClick={() => {
-                                                                    axios.post("https://blacken.herokuapp.com/api/users/particulier/" + obj._id, {
+                                                                    axios.post("https://blacken.herokuapp.com/api/user/particulier/" + obj._id, {
                                                                         nom: this.state.nom,
                                                                         prenom: this.state.prenom,
                                                                         phone: this.state.phone,
@@ -80,7 +80,7 @@ export default class ListTout extends Component {
 
                                                                     }).then(res => {
                                                                         console.log(res.data);
-                                                                        axios.get("https://blacken.herokuapp.com/api/users/newArticle").then(res => {
+                                                                        axios.get("https://blacken.herokuapp.com/api/user/newArticle").then(res => {
 
                                                                             this.setState({ profil: res.data })
                                                                             console.log(this.state.profil)

@@ -29,7 +29,7 @@ handleUploadImage(ev) {
   data.append('email', this.state.email);
   data.append('phone', this.state.phone)
 
-  fetch('https://blacken.herokuapp.com/api/users/particulier/', {
+  fetch('https://blacken.herokuapp.com/api/user/particulier/', {
     method: 'POST',
     body: data,
   }).then((response) => {
