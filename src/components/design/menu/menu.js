@@ -59,7 +59,6 @@ export default class Menu extends Component {
                             <p className="mb-4 pb-2 px-md-5 mx-md-5">Ecrire est toujours un art plein de rencontres. La lettre la plus simple suppose un choix entre des milliers de mots, dont la plupart sont étrangers à ce que vous voulez dire.
 
 <span id="spanheader">Tout l'art du roman vise sans doute à nous tirer d'impatience et à nous composer un plaisir d'attendre qui ne s'use point. Par cette précaution, un vrai roman est toujours trop court.
-
 </span>
                                 <br /><br />C’est la raison pour laquelle nous souhaitons booster cette activité en grâce à cet
                    <strong>SITE ART</strong>.
