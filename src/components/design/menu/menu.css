@@ -3,16 +3,13 @@
     width: 100px;
 }
 #popups {
-    background-color: rgb(113, 224, 141) url(https://images.unsplash.com/photo-1463405346908-1e464eea5f3b?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ)
-    center no-repeat;
+    background-color: rgb(113, 224, 141) center no-repeat;
     padding: 50px;
     border-radius: 10px;
 }
 #ajoutatelier {
     display: none;
-    background:#1B2030
-    url(https://images.unsplash.com/photo-1463405346908-1e464eea5f3b?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ)
-    center no-repeat;
+    background:#1B2030 center no-repeat;
 }
 #tableau {
     display: none;
@@ -30,6 +27,7 @@
 #footer {
     background-color: #1B2030;
     height: 80px;
+    position: absolute;
     line-height: 50%;
     width: 100%;
     font-family:Roboto 'Helvetica Neue', sans-serif !important;

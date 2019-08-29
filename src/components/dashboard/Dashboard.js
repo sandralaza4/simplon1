@@ -31,7 +31,7 @@ class Dashboard extends Component {
 
                   </p>
                 </h4>
-                <button  className="btn btn-secondary"
+                <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="hdrbtn"
                   onClick={()=>{
                     document.getElementById('ajoutatelier').style.display = "block";
                     document.getElementById('tableau').style.display = "none";
@@ -48,7 +48,7 @@ class Dashboard extends Component {
                   }
                   className="btn btn-secondary" id="bottou">Listes des livres</button>
                   <a href="/tousLesAteliers" className="btn btn-secondary">Listes des livres</a>
-                <button
+                <button id="accbtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
                   style={{
                     width: "150px",
                     borderRadius: "3px",
