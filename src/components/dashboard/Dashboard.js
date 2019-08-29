@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { logoutUser } from "../../actions/authActions";
 import PropAtelier from "../propAtelier/propAtelier"
-import AjoutAtelier from '../newLivres/NewLivres'
+import AjoutLivres from '../newLivres/NewLivres'
 
 class Dashboard extends Component {
 
@@ -64,7 +64,7 @@ class Dashboard extends Component {
               </div>
               <div className="col-md-10">
                 <PropAtelier />
-                <AjoutAtelier/>
+                <AjoutLivres/>
               </div>
               
             </div>

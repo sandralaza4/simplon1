@@ -33,10 +33,10 @@ export default class ListTout extends Component {
                     (this.state.produit.length > 0) ? (this.state.produit.filter((params)=>params.visib).map((obj) => {
                         
 
-                        return  <div class="item col-xs-4 col-lg-4" id="carte">
+                        return  <div class="item col-xs-3 col-lg-3" id="carte">
 
                         <div className="card card-cascade narrower card-ecommerce">
-                                <img   width="auto" id="imageproduit" height="230px"    src={'https://blacken.herokuapp.com/api/users/newArticleImage/' + obj.image} alt={obj.image} />
+                                <img   width="auto" id="imageproduit" height="100px"    src={'https://blacken.herokuapp.com/api/users/newArticleImage/' + obj.image} alt={obj.image} />
                                 
                             <div className="card-body card-body-cascade">
 
@@ -64,7 +64,7 @@ export default class ListTout extends Component {
                                                    
                                                         <div className='custom-ui' id="popups">
                                                             <div >
-                                                                <h4>Inscription pour l 'Atelier {obj.Titre}</h4>
+                                                                <h4>Inscription pour le livre {obj.Titre}</h4>
                                                                 <input name="nom" onChange={this.handleChange}
                                                                     value={this.state.value} placeholder="Nom" /><br></br>
                                                                 <input name="prenom" placeholder="Prenom" onChange={this.handleChange} value={this.state.value} /><br></br>
