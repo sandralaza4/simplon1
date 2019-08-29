@@ -38,7 +38,7 @@ handleUploadImage(ev) {
   data.append('idUser', localStorage.id);
   data.append('description', this.state.description)
 
-  fetch('https://blacken.herokuapp.com/api/user/putArticle/'+ this.props.match.params.id, {
+  fetch('https://blacken.herokuapp.com/api/users/putArticle/'+ this.props.match.params.id, {
     method: 'PUT',
     body: data,
   }).then((response) => {
@@ -47,7 +47,7 @@ handleUploadImage(ev) {
       
       
     response.json().then((body) => {
-      this.setState({ image: `https://blacken.herokuapp.com/api/user/newArticle/${body.image}` });
+      this.setState({ image: `https://blacken.herokuapp.com/api/users/newArticle/${body.image}` });
       console.log('ity ilay body.image', body.image);
 
     });
@@ -66,6 +66,7 @@ handleUploadImage(ev) {
                   value={this.state.value}
                   onChange={this.onChange}
                   name="titre" placeholder="Titre" />
+
 
               </div>
               <div className="col-xs-6">
