@@ -34,8 +34,8 @@ export default class PropAtelier extends Component {
                     <th>DESCRIPTION</th>
                     <th>DATE</th>
                     <th>DEBUT</th>
-                    <th>PLACE DISPONIBLE</th>
-                    <th>PLACE RESERVE</th>
+                    <th>LIVRE DISPONIBLE</th>
+                    <th>LIVRE RESERVE</th>
                     <th>DUREE</th>
                     <th>PHOTO</th>
                     <th>ACTION</th>
@@ -90,7 +90,7 @@ export default class PropAtelier extends Component {
                             <td>{obj.action}</td>
                         </tr>
 
-                    })) : ('Aucun atelier à ajouter')
+                    })) : ('Aucune livre à ajouter')
                 }
             </tbody>
         </table>

@@ -69,7 +69,7 @@ body {
    height: 4rem;
    margin: 5rem 0 2.2rem;
    color: rgba(255,255,255,0.8);
-   background: #FF3366;
+   background: rgb(160, 27, 60);
    font-size: 1.5rem;
    border-radius: 3rem;
    cursor: pointer;

@@ -32,6 +32,7 @@ class Dashboard extends Component {
                   </p>
                 </h4>
                 <button 
+                className="btn btn-secondary"
                   onClick={()=>{
                     document.getElementById('ajoutatelier').style.display = "block";
                     document.getElementById('tableau').style.display = "none";
