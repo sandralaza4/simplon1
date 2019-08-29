@@ -28,6 +28,7 @@
     width: 500px;
 }
 #footer {
+    background-color: #1B2030;
     height: 80px;
     line-height: 50%;
     width: 100%;
@@ -36,5 +37,5 @@
 
 h2,p{
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
-    font-style: Verdana,Tahoma, Geneva;
+    font-style: Verdana,Tahoma, Geneva !important;
 }

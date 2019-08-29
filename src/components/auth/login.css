@@ -54,5 +54,11 @@
                                         color: rgb(34, 7, 7);
                                          font-weight: 600;
                                           box-shadow: 0.129vh 0.516vh 1.29vh 0.129vh #aaa;
-                                           background: #f3671f !important;
+                                           background: #494bbb !important;
                                            } 
+body {
+  font-size: 62.5%;
+  height: 100%;
+  overflow: hidden;
+  font-size: 50%;
+  }
