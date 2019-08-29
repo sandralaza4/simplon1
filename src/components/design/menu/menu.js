@@ -25,7 +25,7 @@ export default class Menu extends Component {
         let imgUrl = './back.jpg';
         return (
             <div>
-                <MDBNavbar color="#d05c62" dark expand="md" id="navbar">
+                <MDBNavbar color="#1B2030" dark expand="md" id="navbar">
                     <MDBNavbarBrand>
                         <div id="contentlogo"><img src="logo.png" alt="logo" id="logo" /></div>
                     </MDBNavbarBrand>
@@ -53,7 +53,7 @@ export default class Menu extends Component {
                     backgroundImage: 'url(' + imgUrl + ')',
                     backgroundSize: 'cover', backgroundPosition: 'center center', backgroundRepeat: 'no-repeat',
                 }}>
-                    <div className="text-white text-center rgba-stylish-strong py-5 px-4">
+                    <div className="text-white text-center rgba-stylish-strong py-4 px-4">
                         <div className="py-5">
                             <h2 id="h2accueil">SITE ART</h2>
                             <p className="mb-4 pb-2 px-md-5 mx-md-5">Ecrire est toujours un art plein de rencontres. La lettre la plus simple suppose un choix entre des milliers de mots, dont la plupart sont étrangers à ce que vous voulez dire.
