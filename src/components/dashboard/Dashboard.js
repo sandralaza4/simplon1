@@ -31,7 +31,7 @@ class Dashboard extends Component {
 
                   </p>
                 </h4>
-                <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="hdrbtn"
+                <button 
                   onClick={()=>{
                     document.getElementById('ajoutatelier').style.display = "block";
                     document.getElementById('tableau').style.display = "none";

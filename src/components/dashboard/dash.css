@@ -5,3 +5,8 @@
     center no-repeat;
 
 }
+.mdl-card__title.mdl-card__title {
+    color:#00BCD4;;
+    font-size: 24px;
+    font-weight: 400;
+  }
