@@ -9,7 +9,7 @@ class EditAtelier extends React.Component {
       utilisateur:'',
       prix: '',
       debut: '',
-      duree: '',className="btn btn-secondary",
+      duree: '',
       place: '',
       placeRes: '',
       description: '',
