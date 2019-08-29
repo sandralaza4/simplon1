@@ -33,7 +33,7 @@ export default class ListTout extends Component {
                     (this.state.produit.length > 0) ? (this.state.produit.filter((params)=>params.visib).map((obj) => {
                         
 
-                        return  <div class="item col-xs-4 col-lg-5" id="carte">
+                        return  <div class="item col-xs-4 col-lg-4" id="carte">
 
                         <div className="card card-cascade narrower card-ecommerce">
                                 <img   width="200px" id="imageproduit" height="200px"    src={'https://blacken.herokuapp.com/api/users/newArticleImage/' + obj.image} alt={obj.image} />

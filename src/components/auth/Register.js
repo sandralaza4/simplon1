@@ -70,7 +70,7 @@ class Register extends Component {
                 <b>Crée compte</b> maintenant
               </h4>
               <p className="grey-text text-darken-1">
-                Avez vous deja une Compte? <Link to="/login">Se connecter</Link>
+              déjà un Compte? <Link to="/login">Se connecter</Link>
               </p>
             </div>
             <form noValidate onSubmit={this.onSubmit}>
@@ -81,6 +81,7 @@ class Register extends Component {
                   error={errors.nom}
                   id="nom"
                   type="text"
+                  class="login__input name"
                   className={classnames("", {
                     invalid: errors.nom
                   })}
@@ -96,6 +97,7 @@ class Register extends Component {
                   error={errors.prenom}
                   id="prenom"
                   type="text"
+                  class="login__input name"
                   className={classnames("", {
                     invalid: errors.prenom
                   })}
@@ -111,6 +113,7 @@ class Register extends Component {
                   error={errors.email}
                   id="email"
                   type="email"
+                  class="login__input name"
                   className={classnames("", {
                     invalid: errors.email
                   })}
@@ -141,6 +144,7 @@ class Register extends Component {
                   error={errors.password}
                   id="password"
                   type="password"
+                  class="login__input pass"
                   className={classnames("", {
                     invalid: errors.password
                   })}
@@ -156,6 +160,7 @@ class Register extends Component {
                   error={errors.password2}
                   id="password2"
                   type="password"
+                  class="login__input pass"
                   className={classnames("", {
                     invalid: errors.password2
                   })}
