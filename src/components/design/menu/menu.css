@@ -30,7 +30,8 @@
     position: flex;
     line-height: 50%;
     width: 100%;
-    font-family:Roboto 'Helvetica Neue', sans-serif !important;
+    font-family: Roboto 'Helvetica Neue', sans-serif !important;
+    font-style: inherit;
 }
 
 h2,p{

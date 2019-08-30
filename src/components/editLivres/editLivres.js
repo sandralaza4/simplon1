@@ -110,7 +110,7 @@ handleUploadImage(ev) {
                 <input className="form-control" type="text"
                   value={this.state.value}
                   onChange={this.onChange}
-                  name="duree" placeholder="Durée" />
+                  name="durée" placeholder="Durée" />
               </div>
             </div>
             <br />
