@@ -94,7 +94,7 @@ handleUploadImage(ev) {
               </div>
             </div>
            
-            <br />
+          
             <div className="row">
               <div className="col-xs-6">
               <input className="form-control" type="text"
@@ -109,8 +109,7 @@ handleUploadImage(ev) {
                   name="duree" placeholder="Durée" />
               </div>
             </div>
-            <br />
-            
+                        
             <div className="row">
             <input ref={(ref) => { this.uploadInput = ref; }} type="file" name="image" />
                 <button id="validate" className="btn btn-info">Publier</button>
