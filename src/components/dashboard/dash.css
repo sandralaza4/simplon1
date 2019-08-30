@@ -1,12 +1,12 @@
 .gauche{
     padding-left: 12px;
     background:#1B2030
-    url(https://images.unsplash.com/photo-1463405346908-1e464eea5f3b?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ) 
+    url(https://http://www.metiers-du-livre.fr/wp-content/uploads/2017/11/M2-metiers-du-livre-auteur-ecrivain.png) 
     center no-repeat;
 
 }
 .mdl-card__title.mdl-card__title {
-    color:#00BCD4;;
+    color:rgb(6, 68, 77);;
     font-size: 24px;
     font-weight: 400;
   }
