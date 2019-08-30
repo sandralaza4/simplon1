@@ -13,25 +13,26 @@
 }
 #tableau {
     display: none;
-    background-color: #5fd6a4;
+    background-color: #0f6d46;
 }
 #bottou {
     font-size: 12px !important
 }
 .md-form{
-    background-color: #1f9ef3;
+    background-color: #0e4468;
     /* padding: 10px; */
     border-radius: 10px;
     width: 500px;
 }
 #footer {
-    background-color: rgb(11, 23, 63);
+    background-color: rgb(5, 21, 75);
     height: 80px;
     position: flex;
     line-height: 50%;
     width: 100%;
     font-family: Roboto 'Helvetica Neue', sans-serif !important;
     font-style: inherit;
+    margin-top:30%
 }
 
 h2,p{
